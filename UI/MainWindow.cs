@@ -1,19 +1,40 @@
 // ============================================
 // MODULE 1: User Interface - Main Window
-// Version in MAIN branch
+// Part of Group 1: UI and Themes
 // ============================================
+
+// TODO: Create main application window with multi-tab support
+// TODO: Add menu bar with File, Edit, View, Help
+// TODO: Add toolbar with common actions
+// TODO: Add status bar at bottom
 
 public class MainWindow
 {
-    public void InitializeWindow()
+    // Creates the main application window
+    public void InitializeWindow()      
     {
-        // Standard window setup
-        // Width: 800, Height: 600
-        // Title: "Notepad"
+        // Will set window title, size, and position
+        // Will load saved window state from settings
     }
 
+    // Manages multiple document tabs
     public void AddNewTab()
     {
-        // Creates new tab
+        // Creates new tab for unsaved document
+        // Sets default language and theme
+    }
+
+    // Closes current tab
+    public void CloseCurrentTab()
+    {
+        // Checks for unsaved changes
+        // Shows save prompt if needed
+    }
+
+    // Switches between open tabs
+    public void SwitchTab(int tabIndex)
+    {
+        // Brings selected tab to front
+        // Updates status bar information
     }
 }
