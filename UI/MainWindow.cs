@@ -1,40 +1,46 @@
-// ============================================
-// MODULE 1: User Interface - Main Window
-// Part of Group 1: UI and Themes
-// ============================================
-
-// TODO: Create main application window with multi-tab support
-// TODO: Add menu bar with File, Edit, View, Help
-// TODO: Add toolbar with common actions
-// TODO: Add status bar at bottom
-
+/// <summary>
+/// Главное окно приложения "Блокнот с поддержкой семантики языков программирования"
+/// </summary>
+/// <remarks>
+/// Класс отвечает за создание и управление главным окном, включая:
+/// <list type="bullet">
+/// <item><description>Многостраничный редактор (вкладки)</description></item>
+/// <item><description>Строку меню (Файл, Правка, Вид, Справка)</description></item>
+/// <item><description>Панель инструментов</description></item>
+/// <item><description>Строку состояния</description></item>
+/// </list>
+/// </remarks>
+/// <author>KUD6SN1K</author>
+/// <version>1.0.0</version>
 public class MainWindow
 {
-    // Creates the main application window
-    public void InitializeWindow()      
-    {
-        // Will set window title, size, and position
-        // Will load saved window state from settings
-    }
+    /// <summary>
+    /// Инициализирует главное окно приложения
+    /// </summary>
+    /// <remarks>
+    /// Устанавливает заголовок окна, размеры, позицию и загружает сохранённые настройки
+    /// </remarks>
+    public void InitializeWindow() { }
 
-    // Manages multiple document tabs
-    public void AddNewTab()
-    {
-        // Creates new tab for unsaved document
-        // Sets default language and theme
-    }
+    /// <summary>
+    /// Создаёт новую вкладку для редактирования документа
+    /// </summary>
+    /// <remarks>
+    /// Новая вкладка получает стандартный язык программирования и тему оформления
+    /// </remarks>
+    public void AddNewTab() { }
 
-    // Closes current tab
-    public void CloseCurrentTab()
-    {
-        // Checks for unsaved changes
-        // Shows save prompt if needed
-    }
+    /// <summary>
+    /// Закрывает текущую вкладку
+    /// </summary>
+    /// <remarks>
+    /// При наличии несохранённых изменений показывает диалог сохранения
+    /// </remarks>
+    public void CloseCurrentTab() { }
 
-    // Switches between open tabs
-    public void SwitchTab(int tabIndex)
-    {
-        // Brings selected tab to front
-        // Updates status bar information
-    }
+    /// <summary>
+    /// Переключается на указанную вкладку
+    /// </summary>
+    /// <param name="tabIndex">Индекс вкладки (от 0)</param>
+    public void SwitchTab(int tabIndex) { }
 }

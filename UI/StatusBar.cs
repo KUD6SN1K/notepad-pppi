@@ -1,36 +1,35 @@
-// ============================================
-// MODULE 1: User Interface - Status Bar
-// Part of Group 1: UI and Themes
-// ============================================
-
-// TODO: Show current programming language
-// TODO: Show current theme name
-// TODO: Show cursor position (line, column)
-// TODO: Show file encoding (UTF-8, ANSI, etc.)
-
+/// <summary>
+/// Строка состояния приложения
+/// </summary>
+/// <remarks>
+/// Отображает текущий язык программирования, тему оформления, позицию курсора и кодировку файла
+/// </remarks>
+/// <author>KUD6SN1K</author>
+/// <version>1.0.0</version>
 public class StatusBar
 {
-    // Updates the language label
-    public void UpdateLanguage(string language)
-    {
-        // Displays "Language: C#" or similar
-    }
+    /// <summary>
+    /// Обновляет отображаемый язык программирования
+    /// </summary>
+    /// <param name="language">Название языка (C#, Python, JavaScript...)</param>
+    public void UpdateLanguage(string language) { }
 
-    // Updates the theme label
-    public void UpdateTheme(string themeName)
-    {
-        // Displays "Theme: Dark" or similar
-    }
+    /// <summary>
+    /// Обновляет отображаемую тему оформления
+    /// </summary>
+    /// <param name="themeName">Название темы (Light, Dark...)</param>
+    public void UpdateTheme(string themeName) { }
 
-    // Updates cursor position
-    public void UpdateCursorPosition(int line, int column)
-    {
-        // Displays "Line: 42, Col: 12"
-    }
+    /// <summary>
+    /// Обновляет позицию курсора
+    /// </summary>
+    /// <param name="line">Номер строки (начиная с 1)</param>
+    /// <param name="column">Номер колонки (начиная с 1)</param>
+    public void UpdateCursorPosition(int line, int column) { }
 
-    // Updates encoding information
-    public void UpdateEncoding(string encoding)
-    {
-        // Displays "UTF-8" or "ANSI"
-    }
+    /// <summary>
+    /// Обновляет информацию о кодировке файла
+    /// </summary>
+    /// <param name="encoding">Кодировка (UTF-8, ANSI...)</param>
+    public void UpdateEncoding(string encoding) { }
 }

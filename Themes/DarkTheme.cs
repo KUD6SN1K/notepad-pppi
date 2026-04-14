@@ -1,49 +1,25 @@
-// ============================================
-// MODULE 3: Themes - Dark Theme Implementation
-// Part of Group 1: UI and Themes
-// ============================================
-
-// TODO: Define dark theme colors
-// TODO: Background: #1E1E1E
-// TODO: Text: #D4D4D4
-// TODO: Keywords: #569CD6 (blue)
-// TODO: Strings: #CE9178 (orange)
-// TODO: Comments: #6A9955 (green)
-
+/// <summary>
+/// Реализация тёмной темы оформления
+/// </summary>
+/// <remarks>
+/// Цвета: фон #1E1E1E, текст #D4D4D4, ключевые слова #569CD6, строки #CE9178, комментарии #6A9955
+/// </remarks>
+/// <author>KUD6SN1K</author>
+/// <version>1.0.0</version>
 public class DarkTheme
 {
-    // Returns background color
-    public string GetBackgroundColor()
-    {
-        // Returns "#1E1E1E"
-        return "#1E1E1E";
-    }
+    /// <returns>Цвет фона в формате HEX (#1E1E1E)</returns>
+    public string GetBackgroundColor() { return "#1E1E1E"; }
 
-    // Returns text color
-    public string GetTextColor()
-    {
-        // Returns "#D4D4D4"
-        return "#D4D4D4";
-    }
+    /// <returns>Цвет текста в формате HEX (#D4D4D4)</returns>
+    public string GetTextColor() { return "#D4D4D4"; }
 
-    // Returns keyword color
-    public string GetKeywordColor()
-    {
-        // Returns "#569CD6"
-        return "#569CD6";
-    }
+    /// <returns>Цвет ключевых слов в формате HEX (#569CD6)</returns>
+    public string GetKeywordColor() { return "#569CD6"; }
 
-    // Returns string color
-    public string GetStringColor()
-    {
-        // Returns "#CE9178"
-        return "#CE9178";
-    }
+    /// <returns>Цвет строк в формате HEX (#CE9178)</returns>
+    public string GetStringColor() { return "#CE9178"; }
 
-    // Returns comment color
-    public string GetCommentColor()
-    {
-        // Returns "#6A9955"
-        return "#6A9955";
-    }
+    /// <returns>Цвет комментариев в формате HEX (#6A9955)</returns>
+    public string GetCommentColor() { return "#6A9955"; }
 }

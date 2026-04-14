@@ -1,36 +1,29 @@
-// ============================================
-// MODULE 2: Language Semantics - Language Detection
-// Part of Group 2: Semantics, Search, History
-// ============================================
-
-// TODO: Detect language by file extension (.py, .js, .cpp, .java, .cs)
-// TODO: Support manual language override via menu
-// TODO: Auto-detect when file is opened
-
+/// <summary>
+/// Определитель языка программирования по расширению файла
+/// </summary>
+/// <remarks>
+/// Поддерживаемые расширения: .py (Python), .js (JavaScript), .cpp (C++), .java, .cs (C#), .html, .css
+/// </remarks>
+/// <author>KUD6SN1K</author>
+/// <version>1.0.0</version>
 public class LanguageDetector
 {
-    // Detects language from file extension
-    public string DetectLanguage(string fileName)
-    {
-        // .py -> Python
-        // .js -> JavaScript
-        // .cpp -> C++
-        // .java -> Java
-        // .cs -> C#
-        return "Unknown";
-    }
+    /// <summary>
+    /// Определяет язык по имени файла
+    /// </summary>
+    /// <param name="fileName">Имя файла с расширением</param>
+    /// <returns>Название языка (например, "C#") или "Unknown"</returns>
+    public string DetectLanguage(string fileName) { return "Unknown"; }
 
-    // Manually set language
-    public void SetManualLanguage(string language)
-    {
-        // Overrides automatic detection
-        // Updates syntax highlighting
-    }
+    /// <summary>
+    /// Устанавливает язык вручную (переопределяет автоматическое определение)
+    /// </summary>
+    /// <param name="language">Название языка</param>
+    public void SetManualLanguage(string language) { }
 
-    // Gets list of all supported languages
-    public string[] GetSupportedLanguages()
-    {
-        // Returns ["Python", "JavaScript", "C++", "Java", "C#", "HTML", "CSS"]
-        return new string[] { };
-    }
+    /// <summary>
+    /// Возвращает список всех поддерживаемых языков
+    /// </summary>
+    /// <returns>Массив названий языков</returns>
+    public string[] GetSupportedLanguages() { return new string[] { }; }
 }

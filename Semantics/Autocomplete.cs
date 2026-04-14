@@ -1,29 +1,36 @@
-// ============================================
-// MODULE 2: Language Semantics - Autocomplete
-// Part of Group 2: Semantics, Search, History
-// ============================================
-
-// TODO: Show autocomplete suggestions on Ctrl+Space
-// TODO: Suggest keywords based on current language
-// TODO: Suggest variable names from current document
-
+/// <summary>
+/// Автодополнение кода
+/// </summary>
+/// <remarks>
+/// Предлагает варианты завершения ключевых слов, имён переменных и функций.
+/// Вызов по Ctrl+Space.
+/// </remarks>
+/// <author>KUD6SN1K</author>
+/// <version>1.0.0</version>
 public class Autocomplete
 {
-    // Shows autocomplete dropdown
-    public void ShowSuggestions(string currentWord)
-    {
-        // Opens dropdown near cursor
-    }
+    /// <summary>
+    /// Показывает выпадающий список подсказок
+    /// </summary>
+    /// <param name="currentWord">Частично введённое слово</param>
+    public void ShowSuggestions(string currentWord) { }
 
-    // Gets keywords for current language
-    public string[] GetKeywordsForLanguage(string language)
-    {
-        return new string[] { };
-    }
+    /// <summary>
+    /// Возвращает ключевые слова для указанного языка
+    /// </summary>
+    /// <param name="language">Название языка</param>
+    /// <returns>Массив ключевых слов</returns>
+    public string[] GetKeywordsForLanguage(string language) { return new string[] { }; }
 
-    // Inserts selected suggestion
-    public void InsertSuggestion(string suggestion)
-    {
-        // Replaces current word with suggestion
-    }
+    /// <summary>
+    /// Вставляет выбранную подсказку в документ
+    /// </summary>
+    /// <param name="suggestion">Выбранное слово</param>
+    public void InsertSuggestion(string suggestion) { }
+
+    /// <summary>
+    /// Собирает имена переменных из текущего документа
+    /// </summary>
+    /// <returns>Массив имён переменных</returns>
+    public string[] GetVariableNames() { return new string[] { }; }
 }

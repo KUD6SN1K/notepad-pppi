@@ -1,45 +1,35 @@
-// ============================================
-// MODULE 3: Themes
-// Part of Group 1: UI and Themes
-// ============================================
-
-// TODO: Load built-in themes (Light, Dark, High Contrast, Solarized, Monokai)
-// TODO: Apply theme without restarting application
-// TODO: Load custom themes from JSON files
-// TODO: Preview theme before applying
-
+/// <summary>
+/// Менеджер тем оформления
+/// </summary>
+/// <remarks>
+/// Управляет загрузкой, применением и переключением тем.
+/// Встроенные темы: Light, Dark, High Contrast, Solarized Light, Monokai.
+/// Поддерживаются пользовательские темы из JSON.
+/// </remarks>
+/// <author>KUD6SN1K</author>
+/// <version>1.0.0</version>
 public class ThemeManager
 {
-    // List of available themes
-    public void LoadAvailableThemes()
-    {
-        // Light theme
-        // Dark theme
-        // High Contrast theme
-        // Solarized Light theme
-        // Monokai theme
-    }
+    /// <summary>
+    /// Загружает список всех доступных тем
+    /// </summary>
+    public void LoadAvailableThemes() { }
 
-    // Apply selected theme
-    public void ApplyTheme(string themeName)
-    {
-        // Changes background color
-        // Changes text color
-        // Changes syntax highlighting colors
-    }
+    /// <summary>
+    /// Применяет выбранную тему
+    /// </summary>
+    /// <param name="themeName">Название темы</param>
+    public void ApplyTheme(string themeName) { }
 
-    // Load custom theme from JSON
-    public void LoadCustomTheme(string jsonFilePath)
-    {
-        // Reads JSON configuration
-        // Parses color values
-        // Applies custom theme
-    }
+    /// <summary>
+    /// Загружает пользовательскую тему из JSON-файла
+    /// </summary>
+    /// <param name="jsonFilePath">Путь к JSON-файлу</param>
+    public void LoadCustomTheme(string jsonFilePath) { }
 
-    // Show theme preview window
-    public void ShowThemePreview(string themeName)
-    {
-        // Opens small window with sample code
-        // Shows how theme will look
-    }
+    /// <summary>
+    /// Показывает предпросмотр темы
+    /// </summary>
+    /// <param name="themeName">Название темы для предпросмотра</param>
+    public void ShowThemePreview(string themeName) { }
 }

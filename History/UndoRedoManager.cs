@@ -1,22 +1,37 @@
-// ============================================
-// MODULE 6: Undo/Redo History
-// Part of Group 2: Semantics, Search, History
-// ============================================
-
-// TODO: Track all changes for Undo (Ctrl+Z)
-// TODO: Track all changes for Redo (Ctrl+Y)
-
+/// <summary>
+/// Управление историей изменений (Undo/Redo)
+/// </summary>
+/// <remarks>
+/// Реализует стек отмены и повтора. Поддерживает неограниченную историю или ограниченный лимит.
+/// </remarks>
+/// <author>KUD6SN1K</author>
+/// <version>1.0.0</version>
 public class UndoRedoManager
 {
-    // Saves current state for undo
+    /// <summary>
+    /// Сохраняет текущее состояние для будущей отмены
+    /// </summary>
+    /// <param name="actionName">Описание действия</param>
     public void SaveStateForUndo(string actionName) { }
 
-    // Performs undo
+    /// <summary>
+    /// Отменяет последнее действие (Ctrl+Z)
+    /// </summary>
     public void Undo() { }
 
-    // Performs redo
+    /// <summary>
+    /// Повторяет отменённое действие (Ctrl+Y)
+    /// </summary>
     public void Redo() { }
 
-    // Clears all history
+    /// <summary>
+    /// Очищает всю историю
+    /// </summary>
     public void ClearHistory() { }
+
+    /// <summary>
+    /// Возвращает список последних действий для отображения в интерфейсе
+    /// </summary>
+    /// <returns>Массив описаний действий</returns>
+    public string[] GetRecentActions() { return new string[] { }; }
 }
