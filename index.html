@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notepad+++ | Блокнот с подсветкой кода</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>📝 Notepad<span>+++</span></h1>
+            <p class="tagline">Редактор кода с подсветкой синтаксиса и темами оформления</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <a href="#about">О проекте</a>
+            <a href="#features">Возможности</a>
+            <a href="#modules">Модули</a>
+            <a href="#labs">Лабораторные работы</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="about">
+            <h2>О проекте</h2>
+            <p><strong>Notepad+++</strong> — это лёгкий редактор кода с поддержкой семантики языков программирования. В отличие от стандартного Блокнота, он автоматически определяет язык по расширению файла и применяет цветную подсветку ключевых слов, строк, комментариев и операторов.</p>
+            <p>Редактор поддерживает C#, Python, JavaScript, C++, Java, HTML и CSS. Включает несколько тем оформления, автодополнение, проверку парных скобок, поиск и замену с регулярными выражениями, неограниченную историю действий, экспорт в HTML и PDF.</p>
+        </section>
+
+        <section id="features">
+            <h2>Ключевые возможности</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>🎨 Подсветка синтаксиса</h3>
+                    <p>Автоматическое определение языка и цветовая маркировка ключевых слов, строк, комментариев, чисел и операторов.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🌙 Несколько тем</h3>
+                    <p>Светлая, тёмная, высокая контрастность, Solarized Light, Monokai — смена темы без перезапуска.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>📁 Управление файлами</h3>
+                    <p>Кодировки UTF-8/ANSI, список недавних файлов, автосохранение, восстановление несохранённых вкладок.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🔍 Поиск и замена</h3>
+                    <p>Учёт регистра, целые слова, регулярные выражения. Замена одного или всех вхождений.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>↩️ Отмена / Повтор</h3>
+                    <p>Неограниченная история изменений (Undo/Redo) с отображением списка последних действий.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>📤 Экспорт и печать</h3>
+                    <p>Экспорт в HTML (с сохранением подсветки) и PDF. Печать с предпросмотром.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="modules">
+            <h2>Модули системы</h2>
+            <div class="modules-list">
+                <div class="module-item"><strong>1. Интерфейс пользователя</strong> – многостраничный редактор (вкладки), меню, панель инструментов, строка состояния</div>
+                <div class="module-item"><strong>2. Семантика языков</strong> – определение языка, подсветка синтаксиса, автодополнение, проверка скобок</div>
+                <div class="module-item"><strong>3. Темы оформления</strong> – встроенные темы, пользовательские JSON-темы, предпросмотр</div>
+                <div class="module-item"><strong>4. Файловый модуль</strong> – открытие/сохранение с кодировками, недавние файлы, автосохранение</div>
+                <div class="module-item"><strong>5. Поиск и замена</strong> – регулярные выражения, подсветка совпадений, замена во всех файлах</div>
+                <div class="module-item"><strong>6. История изменений</strong> – неограниченная история, отслеживание действий (Undo/Redo)</div>
+                <div class="module-item"><strong>7. Экспорт и печать</strong> – экспорт в HTML/PDF, предпросмотр печати</div>
+                <div class="module-item"><strong>8. Доп. возможности</strong> – масштабирование, перенос строк, закладки, отображение невидимых символов</div>
+                <div class="module-item"><strong>9. Система настроек</strong> – конфигурация в JSON, сброс на стандартные значения</div>
+                <div class="module-item"><strong>10. Справочное руководство</strong> – справка по F1, список горячих клавиш, информация о версии</div>
+            </div>
+        </section>
+
+        <section id="labs">
+            <h2>Лабораторные работы</h2>
+            <p>Все файлы лабораторных работ находятся в папке <code>/labs</code> этого репозитория:</p>
+            <ul>
+                <li><strong>Лабораторная работа 1:</strong> План проекта – описаны 10 модулей</li>
+                <li><strong>Лабораторная работа 2:</strong> Ветки Git – 3 ветки с имитацией кода на C#</li>
+                <li><strong>Лабораторная работа 3:</strong> Восстановление данных – демонстрация git reset --hard</li>
+                <li><strong>Лабораторная работа 4:</strong> Самодокументирующийся код – добавлены XML-докблоки</li>
+                <li><strong>Лабораторная работа 5:</strong> Ручная документация – создан CHM-файл справки</li>
+                <li><strong>Лабораторная работа 6:</strong> Веб-сайт из репозитория – эта страница</li>
+            </ul>
+            <p><a href="https://github.com/KUD6SN1K/notepad-pppi" target="_blank">Открыть репозиторий на GitHub →</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 KUD6SN1K | Блокнот с поддержкой семантики языков программирования</p>
+            <p>GitHub: <a href="https://github.com/KUD6SN1K">KUD6SN1K</a></p>
+        </div>
+    </footer>
+</body>
+</html>
